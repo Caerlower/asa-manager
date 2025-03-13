@@ -10,7 +10,7 @@ ASA Manager makes it easy to create, opt-in to, and transfer Algorand Standard A
 
 - Python 3.6+
 - An Algorand node or access to a service like PureStake or Algorand TestNet/MainNet
-- Algorand wallet with sufficient funds
+- Algorand wallet with sufficient testnet algos. 
 
 ## Installation
 
