@@ -186,7 +186,7 @@ collectible_txn = create_asa(
 
 ### Transaction Failed
 
-- Check if your account has sufficient Algos for the transaction fee
+- Check if your account has sufficient testnet Algos for the transaction fee
 - Ensure the receiver has opted-in to the asset
 - Verify asset IDs are correct
 - Check the account's spending key has signing authority
