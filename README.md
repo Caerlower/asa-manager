@@ -16,8 +16,8 @@ ASA Manager makes it easy to create, opt-in to, and transfer Algorand Standard A
 
 ```bash
 # Clone the repository
-git clone https://github.com/Caerlower/algo-asa-manager.git
-cd algo-asa-manager
+git clone https://github.com/Caerlower/asa-manager.git
+cd asa-manager
 
 # Create and activate a virtual environment
 python -m venv algorand
