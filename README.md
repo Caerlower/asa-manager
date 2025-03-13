@@ -66,7 +66,7 @@ TESTNET_ALGOD_PORT=""
 PRIVATE_KEY="your_private_key_here"
 ```
 
-**NOTE:** If you have Pera wallet then you can use the account.py file where you can paste your mnemonic phrases. 
+**NOTE:** If you have Pera wallet then you can use the account.py file where you can paste your mnemonic phrase, after that first run `account.py` to get your private key and then paste it in the `.env` file.
 
 ### Basic Usage
 
