@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: multiformats-config
+Version: 0.3.1
+Summary: Pre-loading configuration module for the 'multiformats' package.
+Home-page: https://github.com/hashberg-io/multiformats-config
+Author: hashberg
+Author-email: sg495@users.noreply.github.com
+Project-URL: Bug Tracker, https://github.com/hashberg-io/multiformats-config/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: multiformats
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+multiformats-config: Configuration for the 'multiformats' package.
+==================================================================
+
+.. image:: https://img.shields.io/badge/python-3.7+-green.svg
+    :target: https://docs.python.org/3.7/
+    :alt: Python versions
+
+.. image:: https://img.shields.io/pypi/v/multiformats-config.svg
+    :target: https://pypi.python.org/pypi/multiformats-config/
+    :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/status/multiformats-config.svg
+    :target: https://pypi.python.org/pypi/multiformats-config/
+    :alt: PyPI status
+
+.. image:: http://www.mypy-lang.org/static/mypy_badge.svg
+    :target: https://github.com/python/mypy
+    :alt: Checked with Mypy
+
+This module provides configuration and table information for the `multiformats <https://github.com/hashberg-io/multiformats/>`_ library.
+
+License
+-------
+
+`MIT © Hashberg Ltd. <LICENSE>`_
+
+See `additional Licenses <ADDITIONAL-LICENSES>`_ for licensing of the multicodec table, the multibase table and test vectors for multihashes.
