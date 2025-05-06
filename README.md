@@ -49,19 +49,9 @@ AlgoKit is Algorand's official development kit that simplifies the developer exp
     
     ```
 
-4. Create a `.env` file in your project root with the following contents:
+4. Fillout the `.env` file in your project root with your mnemonic phrases:
 
 ```
-#Algorand LocalNet configuration
-LOCALNET_ALGOD_URL=http://localhost
-LOCALNET_ALGOD_PORT=4001
-LOCALNET_ALGOD_TOKEN=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-# Algorand TestNet configuration
-TESTNET_ALGOD_TOKEN="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-TESTNET_ALGOD_URL="https://testnet-api.algonode.cloud"
-TESTNET_ALGOD_PORT=""
-
 # Your account's private key (keep this secure!)
 PRIVATE_KEY="your_private_key_here"
 ```
